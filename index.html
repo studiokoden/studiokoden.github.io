@@ -22,11 +22,9 @@
 	<div x-data="{ open: false }" class="w-full text-gray-700 bg-cream">
         <div class="flex flex-col max-w-screen-xl px-8 mx-auto md:items-center md:justify-between md:flex-row">
             <div class="flex flex-row items-center justify-between py-6">
-                <div class="relative md:mt-8">
-                    <a href="#" class="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">Skilline</a>
-                    <svg class="h-11 z-40 absolute -top-2 -left-3" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M35.2574 2.24264C37.6005 -0.100501 41.3995 -0.100505 43.7426 2.24264L76.7574 35.2574C79.1005 37.6005 79.1005 41.3995 76.7574 43.7426L43.7426 76.7574C41.3995 79.1005 37.6005 79.1005 35.2574 76.7574L2.24264 43.7426C-0.100501 41.3995 -0.100505 37.6005 2.24264 35.2574L35.2574 2.24264Z" fill="#65DAFF"/>
-                    </svg>
+                <div class="flex items-center md:mt-8">
+					<img src="img/koden.png" class="h-11 rounded-lg" alt="Koden"/>
+                    <a href="#" class="text-2xl ml-2 font-bold tracking-wide text-darken rounded-lg focus:outline-none focus:shadow-outline">Koden Studio</a>
                 </div>
                 <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
                     <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -40,8 +38,8 @@
                 <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">Careers</a>
                 <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">Blog</a>
                 <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">About Us</a>
-                <a class="px-10 py-3 mt-2 text-sm text-center bg-white text-gray-800 rounded-full md:mt-8 md:ml-4" href="#">Login</a>
-                <a class="px-10 py-3 mt-2 text-sm text-center bg-yellow-500 text-white rounded-full md:mt-8 md:ml-4" href="#">Sign Up</a> -->
+                <a class="px-10 py-3 mt-2 text-sm text-center bg-white text-gray-800 rounded-full md:mt-8 md:ml-4" href="#">Login</a> -->
+                <a class="px-7 py-3 mt-2 text-sm text-center bg-main-gradient font-medium text-white rounded-full md:mt-8 md:ml-4" href="#">Contact Us</a>
             </nav>
         </div>
     </div>
@@ -50,21 +48,21 @@
 			<!--Left Col-->
 			<div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
 				<h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-darken">
-					<span class="text-yellow-500">Studying</span> Online is now much easier
+					<span class="text-main-1">Koden</span> Crafting Digital Excellence
 				</h1>
-				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">Skilline is an interesting platform that will teach you in more an interactive way</p>
+				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">we bring your visions to life with cutting-edge web and app development 🚀.</p>
 				<div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5">
-					<button class="lg:mx-0 bg-yellow-500 text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-						Join for free
+					<button class="lg:mx-0 bg-main-gradient text-white text-xl font-medium rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+						Get your work done
 					</button>
-					<div class="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+					<!-- <div class="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
 						<button class="bg-white w-14 h-14 rounded-full flex items-center justify-center">
 							<svg class="w-5 h-5 ml-2" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M22.5751 12.8097C23.2212 13.1983 23.2212 14.135 22.5751 14.5236L1.51538 27.1891C0.848878 27.5899 5.91205e-07 27.1099 6.25202e-07 26.3321L1.73245e-06 1.00123C1.76645e-06 0.223477 0.848877 -0.256572 1.51538 0.14427L22.5751 12.8097Z" fill="#23BDEE"/>
+								<path d="M22.5751 12.8097C23.2212 13.1983 23.2212 14.135 22.5751 14.5236L1.51538 27.1891C0.848878 27.5899 5.91205e-07 27.1099 6.25202e-07 26.3321L1.73245e-06 1.00123C1.76645e-06 0.223477 0.848877 -0.256572 1.51538 0.14427L22.5751 12.8097Z" fill="#e57373"/>
 							</svg>
 						</button>
 						<span class="cursor-pointer">Watch how it works</span>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<!--Right Col-->
@@ -114,7 +112,7 @@
 
 		<!-- All-In-One Cloud Software. -->
 		<div data-aos="flip-up" class="max-w-xl mx-auto text-center mt-24">
-			<h1 class="font-bold text-darken my-3 text-2xl">All-In-One <span class="text-yellow-500">Cloud Software.</span></h1>
+			<h1 class="font-bold text-darken my-3 text-2xl">All-In-One <span class="text-main-1">Cloud Software.</span></h1>
 			<p class="leading-relaxed text-gray-500">Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.</p>
 		</div>
 		<!-- card -->
@@ -162,7 +160,7 @@
 		<!-- lorem -->
 		<div class="mt-28">
 			<div data-aos="flip-down" class="text-center max-w-screen-md mx-auto">
-				<h1 class="text-3xl font-bold mb-4">What is<span class="text-yellow-500">Skilline?</span></h1>
+				<h1 class="text-3xl font-bold mb-4">What is<span class="text-main-1">Skilline?</span></h1>
 				<p class="text-gray-500">Skilline is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.</p>
 			</div>
 			<div data-aos="fade-up" class="flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
@@ -190,7 +188,7 @@
 		<div class="sm:flex items-center sm:space-x-8 mt-36">
 			<div data-aos="fade-right" class="sm:w-1/2 relative">
 				<div class="bg-yellow-500 rounded-full absolute w-12 h-12 z-0 -left-4 -top-3 animate-pulse"></div>
-				<h1 class="font-semibold text-2xl relative z-50 text-darken lg:pr-10">Everything you can do in a physical classroom, <span class="text-yellow-500">you can do with Skilline</span></h1>
+				<h1 class="font-semibold text-2xl relative z-50 text-darken lg:pr-10">Everything you can do in a physical classroom, <span class="text-main-1">you can do with Skilline</span></h1>
 				<p class="py-5 lg:pr-32">Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
 				<a href="" class="underline">Learn More</a>
 			</div>
@@ -215,7 +213,7 @@
 				<div style="background: #F56666;" class="w-5 h-5 rounded-full absolute z-0 right-52 bottom-1 animate-ping"></div>
 			</div>
 			<div data-aos="fade-down" class="md:w-5/12 mt-20 md:mt-0 text-gray-500">
-				<h1 class="text-2xl font-semibold text-darken lg:pr-40">A <span class="text-yellow-500">user interface</span> designed for the classroom</h1>
+				<h1 class="text-2xl font-semibold text-darken lg:pr-40">A <span class="text-main-1">user interface</span> designed for the classroom</h1>
 				<div class="flex items-center space-x-5 my-5">
 					<div class="flex-shrink bg-white shadow-lg rounded-full p-3 flex items-center justify-center">
 						<svg class="w-4 h-4" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -250,7 +248,7 @@
 		<!-- Tools For Teachers And Learners -->
 		<div class="flex flex-col md:flex-row items-center md:space-x-10 mt-16">
 			<div data-aos="fade-right" class="md:w-1/2 lg:pl-14">
-				<h1 class="text-darken font-semibold text-3xl lg:pr-56"><span class="text-yellow-500">Tools</span> For Teachers And Learners</h1>
+				<h1 class="text-darken font-semibold text-3xl lg:pr-56"><span class="text-main-1">Tools</span> For Teachers And Learners</h1>
 				<p class="text-gray-500 my-4 lg:pr-32">Class has a dynamic set of teaching tools built to be deployed and used during class. Teachers can handout assignments in real-time for students to complete and submit.</p>
 			</div>
 			<img data-aos="fade-left" class="md:w-1/2" src="img/girl-with-books.png">
@@ -262,7 +260,7 @@
 				<img class="md:w-11/12" src="img/true-false.png">
 			</div>
 			<div data-aos="fade-left" class="md:w-6/12 md:transform md:-translate-y-20">
-				<h1 class="font-semibold text-darken text-3xl lg:pr-64">Assessments, <span class="text-yellow-500">Quizzes</span>, Tests</h1>
+				<h1 class="font-semibold text-darken text-3xl lg:pr-64">Assessments, <span class="text-main-1">Quizzes</span>, Tests</h1>
 				<p class="text-gray-500 my-5 lg:pr-52">Easily launch live assignments, quizzes, and tests. Student results are automatically entered in the online gradebook.</p>
 			</div>
 		</div>
@@ -270,7 +268,7 @@
 		<!-- Class Management Tools for Educators -->
 		<div class="flex flex-col md:flex-row items-center mt-12">
 			<div data-aos="fade-right" class="md:w-5/12">
-				<h1 class="text-darken font-semibold text-3xl leading-tight lg:pr-32"><span class="text-yellow-500">Class Management</span> Tools for Educators</h1>
+				<h1 class="text-darken font-semibold text-3xl leading-tight lg:pr-32"><span class="text-main-1">Class Management</span> Tools for Educators</h1>
 				<p class="my-5 lg:pr-14">Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</p>
 			</div>
 			<img data-aos="fade-left" class="md:w-7/12" src="img/gradebook.png">
@@ -282,12 +280,12 @@
 				<img class="md:w-11/12" src="img/discussion.png">
 			</div>
 			<div data-aos="fade-left" class="md:w-5/12 md:transform md:-translate-y-6">
-				<h1 class="font-semibold text-darken text-3xl lg:pr-64">One-on-One <span class="text-yellow-500">Discussions</span></h1>
+				<h1 class="font-semibold text-darken text-3xl lg:pr-64">One-on-One <span class="text-main-1">Discussions</span></h1>
 				<p class="text-gray-500 my-5 lg:pr-24">Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.</p>
 			</div>
 		</div>
 
-		<button data-aos="flip-up" class="px-5 py-3 border border-yellow-500 text-yellow-500 font-medium my-14 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full mx-auto block">See more features</button>
+		<button data-aos="flip-up" class="px-5 py-3 border border-yellow-500 text-main-1 font-medium my-14 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full mx-auto block">See more features</button>
 
 		<!-- INTEGRATIONS -->
 		<div class="mt-24 flex flex-col md:flex-row items-start md:space-x-10">
@@ -299,9 +297,9 @@
 					<span class="border border-gray-300 w-14 absolute"></span>
 					<h1 class="text-gray-400 tracking-widest text-sm">INTEGRATIONS</h1>
 				</div>
-				<h1 class="font-semibold text-darken text-2xl lg:pr-40">200+ educational tools and platform <span class="text-yellow-500">integrations</span></h1>
+				<h1 class="font-semibold text-darken text-2xl lg:pr-40">200+ educational tools and platform <span class="text-main-1">integrations</span></h1>
 				<p class="text-gray-500 my-5 lg:pr-20">Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.</p>
-				<button class="px-5 py-3 border border-yellow-500 text-yellow-500 font-medium my-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full">See All Integrations</button>
+				<button class="px-5 py-3 border border-yellow-500 text-main-1 font-medium my-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full">See All Integrations</button>
 			</div>
 		</div>
 
@@ -316,7 +314,7 @@
 				<p class="text-gray-500 my-5 lg:pr-36">Skilline has got more than 100k positive ratings from our users around the world.</p>
 				<p class="text-gray-500 my-5 lg:pr-36">Some of the students and teachers were greatly helped by the Skilline.</p>
 				<p class="text-gray-500 my-5 lg:pr-36">Are you too? Please give your assessment</p>
-				<button class="flex items-center space-x-3 pl-3 border-b border-l border-t border-yellow-500 text-yellow-500 font-medium my-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full">
+				<button class="flex items-center space-x-3 pl-3 border-b border-l border-t border-yellow-500 text-main-1 font-medium my-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full">
 					<span>Write your assessment</span>
 					<div class="border border-yellow-500 h-14 w-14 rounded-full flex items-center justify-center">
 						<svg class="w-5 h-5" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -387,34 +385,25 @@
 	<!-- .container -->
 
 	<footer class="mt-32" style="background-color: rgba(37, 38, 65, 1);">
-		<div class="max-w-lg mx-auto">
+		<div class="mx-auto">
 			<div class="flex py-12 justify-center text-white items-center px-20 sm:px-36">
-				<div class="relative">
-					<h1 class="font-bold text-xl pr-5 relative z-50">Skilline</h1>
-					<svg class="w-11 h-11 absolute -top-2 -left-3 z-40" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M35.9645 2.94975C37.9171 0.997129 41.0829 0.997127 43.0355 2.94975L76.0502 35.9645C78.0029 37.9171 78.0029 41.0829 76.0503 43.0355L43.0355 76.0502C41.0829 78.0029 37.9171 78.0029 35.9645 76.0503L2.94975 43.0355C0.997129 41.0829 0.997127 37.9171 2.94975 35.9645L35.9645 2.94975Z" stroke="#26C1F2" stroke-width="2"/>
-					</svg>
-				</div>
-				<span class="border-l border-gray-500 text-sm pl-5 py-2 font-semibold">Virtual Class for Zoom</span>
+				<div class="flex items-center">
+					<img src="img/koden.png" class="h-8 rounded-md" alt="Koden"/>
+                    <a href="#" class="text-lg ml-2 mr-5 font-semibold text-white focus:outline-none focus:shadow-outline">Koden Studio</a>
+                </div>
+				<span class="border-l border-gray-500 text-lg pl-5 py-2 font-semibold">Crafting Digital Excellence</span>
 			</div>
-			<div class="text-center pb-16 pt-5">
-				<label class="text-gray-300 font-semibold">Subscribe to get our Newsletter</label>
+			<div class="text-center pb-16 pt-0">
+				<!-- <label class="text-gray-300 font-semibold">Subscribe to get our Newsletter</label> -->
 				<div class="px-5 sm:px-0 flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0 justify-center mt-3">
-					<input type="email" placeholder="Your Email" class="rounded-full py-2 pl-5 bg-transparent border border-gray-400">
-					<button type="submit" class="text-white w-40 sm:w-auto mx-auto sm:mx-0 font-semibold px-5 py-2 rounded-full" style="background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);">Subscribe</button>
+					<input type="email" placeholder="Your Email" class="rounded-full py-2 pl-5 bg-transparent border border-gray-400" style="width: 30rem;">
+					<button type="submit" class="text-white w-40 sm:w-auto mx-auto sm:mx-0 font-medium px-5 py-2 rounded-full bg-main-gradient">Subscribe</button>
 				</div>
 			</div>
-			<div class="flex items-center text-gray-400 text-sm justify-center">
-				<a href="" class="pr-3">Careers</a>
-				<a href="" class="border-l border-gray-400 px-3">Privacy</a>
-				<a href="" class="border-l border-gray-400 pl-3">Terms & Conditions</a>
-			</div>
-			<div class="text-center text-white">
-				<p class="my-3 text-gray-400 text-sm">&copy; 2021 Class Technologies Inc. </p>
-				<div class="py-3 tracking-wide">
-					<p>Code By <span class="font-semibold">mhaecal</span></p>
-					<p>UI/UX By <span class="font-semibold">Irvan Moses</span></p>
-				</div>
+			<div class="flex items-center text-gray-400 text-sm justify-center pb-5">
+				<a href="" class="pr-3 border-gray-400">Privacy Policy</a>
+				<a href="" class="border-l border-gray-400 px-3">Terms & Conditions</a>
+				<a class="border-l border-gray-400 pl-3">&copy; 2024 Koden Studio Agency.</a>
 			</div>
 		</div>
 	</footer>

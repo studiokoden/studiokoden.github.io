@@ -1,11 +1,27 @@
 /*primary color*/
 .bg-cream {
-    background-color: #FFF2E1;
+    background-color: #faeaef;
 }
 
 /*font*/
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.bg-main-gradient{
+    background-image: linear-gradient(45deg, #f06292, #e57373);
+}
+.bg-main-solid{
+    background-color: #f06292;
+}
+.text-main-1{
+    color: #f06292;
+}
+.text-main-2{
+    color: #e57373;
+}
+.text-main-3{
+    color: #1c1c1c;
 }
 
 .bg-yellow-500 {
